@@ -1,25 +1,22 @@
 *{
   margin: 0;
   text-decoration: none;
-}
-header{
   font-family: 'Lato', sans-serif;
-  height:100px;
 }
+
 .entete{
   display: flex;
   justify-content: space-around;
   background-color: #ecf0f1;
   width: 100%;
   position: fixed;
-  border-bottom: 2px solid black;
-
+  /*border-bottom: 2px solid black;*/
+z-index:1000;
 }
 .simplonnn{
   color: #e74c3c;
   margin-top: 15px;
   margin-left: 0px;
-  z-index: -9999;
 }
 .imagentete{
 margin-top: 10px;
@@ -37,9 +34,7 @@ margin-bottom: 7px;
   margin: 0px  20px;
 }
 
-body{
-font-family: 'Lato', sans-serif;
-}
+
 #lienmagic{
   display: flex;
   justify-content: flex-end;
@@ -51,7 +46,6 @@ font-family: 'Lato', sans-serif;
   padding-right: 10px;
   margin-left: -5px;
   border-radius: 5%;
-
 }
 .magic{
 padding-top: 19px;
@@ -61,6 +55,40 @@ background-color:#95a5a6;
 display: flex;
 justify-content: center;
 }
+
+/*fin header*/
+
+
+.invisible {
+  width: 100%;
+  overflow: hidden;
+  height: 450px
+}
+
+.accroche{
+position:absolute;
+background-color: rgba(255,255,255, 0.8);
+color:black;
+height: 100px;
+width:500px;
+top:220px;
+left:200px;
+padding:10px;
+z-index:0;
+}
+
+.accroche h2{
+  font-weight: bold;
+  font-family: "Lato";
+  font-size:35px;
+  padding:10px;
+  margin:0px;
+  text-align: left;
+  z-index:0;
+}
+/*fin bandeau*/
+
+
 
 
 .texte{
