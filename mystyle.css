@@ -60,4 +60,78 @@ background-color:#95a5a6;
 display: flex;
 justify-content: center;
 
+
+
+.texte{
+  width: 70%;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.temoignages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.T1,.T2,.T3,.T4,.T5{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 400px;
+  margin:0px;
+    padding:0px;
+  border-radius: 30px;
+  color: rgb(0,0,0,0);
+  transition: 1s ease-in-out;
+
+}
+
+.T1:hover,.T2:hover,.T3:hover,.T4:hover,.T5:hover{
+color: black;
+border:1px solid black;
+    padding: 0px;
+}
+
+.T1,.T3,.T5{
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.T2,.T4{
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.temoignages div img{
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  /*max-width: 100%;*/
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.temoignages div p{
+  text-align: center;
+}
+
+ .text-image{
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  height: 250px;
+  margin:10px;
 }
