@@ -4,6 +4,7 @@
 }
 header{
   font-family: 'Lato', sans-serif;
+  height:100px;
 }
 .entete{
   display: flex;
@@ -17,7 +18,7 @@ header{
 .simplonnn{
   color: #e74c3c;
   margin-top: 15px;
-  margin-left: -100px;
+  margin-left: 0px;
   z-index: -9999;
 }
 .imagentete{
@@ -59,7 +60,7 @@ padding-top: 19px;
 background-color:#95a5a6;
 display: flex;
 justify-content: center;
-
+}
 
 
 .texte{
