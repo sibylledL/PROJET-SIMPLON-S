@@ -60,10 +60,13 @@ padding-top: 19px;
 background-color:#95a5a6;
 display: flex;
 justify-content: center;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
 
-
-.texte{
+.texte {
   width: 70%;
   height: 140px;
   margin-left: auto;
@@ -136,3 +139,207 @@ border:1px solid black;
   height: 250px;
   margin:10px;
 }
+
+/*------------------------------
+début section simplon-quoi
+-------------------------------*/
+.clear {
+  clear: both;
+}
+
+.simplon-quoi {
+  margin-top: 50px; 
+  text-align: center; 
+}
+
+.simplon-quoi .quiNousSommesParagraphe {
+  
+}
+
+.simplon-quoi p {
+  margin-bottom: 30px;
+}
+
+.simplon-quoi button {
+  background-color: #C30044;
+  padding: 15px;
+  border-radius: 15px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.simplon-quoi button:hover {
+  border:   2px solid #C30044;
+  background-color: #fff;
+  color: #C30044;
+}
+
+.simplon-quoi .display {
+  display: flex;
+}
+
+.simplon-quoi .display .miniBlock {
+  flex: 1;
+  color: #fff
+}
+
+.simplon-quoi .blockQuelquesChiffres p {
+  margin: auto;
+}
+
+.simplon-quoi .i {
+  font-size: 1.2em;
+}
+
+.simplon-quoi .blockQuelquesChiffres span {
+  font-size: 2em;
+}
+
+.simplon-quoi .blockQuelquesChiffres .miniBlock1 {
+  background-color: #0A246A;
+  height: 200px;
+  display: flex;
+}
+
+.simplon-quoi .blockQuelquesChiffres .miniBlock2 {
+  background-color: #C30044;
+  height: 200px;
+  display: flex;
+}
+
+.simplon-quoi .blockQuelquesChiffres .miniBlock3 {
+  background-color: #0A246A;
+  height: 200px;
+  display: flex;
+}
+
+/* partie onClick */
+
+.simplon-quoi {
+  position: relative;
+  overflow: hidden;
+}
+
+.simplon-quoi .onClickLeft {
+  background-color: #0000FE;
+  position: absolute;
+  margin-left: -50vw;
+  width: 50vw;
+  height: 100%;
+  transition-duration: 0.2s;
+}
+
+.simplon-quoi .onClickLeft .crossLeft {
+  float: right;
+  margin-top: 15px;
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+}
+
+.simplon-quoi .onClickLeft_open {
+  margin-left: 0;
+  transition-duration: 0.2s;
+}
+
+
+
+.simplon-quoi .onClickRight {
+  background-color: #0000FE;
+  position: absolute;
+  margin-left: 100vw;
+  width: 50vw;
+  height: 100%;
+  transition-duration: 0.2s;
+}
+
+.simplon-quoi .onClickRight .crossRight {
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 25px;
+  height: 25px;
+}
+
+.simplon-quoi .onClickRight_open {
+  margin-left: 50vw;
+  transition-duration: 0.2s;
+}
+
+.test {
+  margin: auto;
+  color: #fff;
+}
+
+.display1 {
+  height: 100%;
+  padding: 15px;
+}
+
+/* carte */
+
+.carte{
+  background-image: url('images/carte1.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+
+.fabrique{
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+#Paris{
+  top: 90px;
+  left:210px;
+  z-index:3;
+}
+
+#Est{
+  left:330px;
+  top: 100px;
+  z-index:0;
+}
+
+#Nord-Est{
+  left:260px;
+  top:60px;
+  z-index:0;
+}
+
+#Occitanie{
+  top:320px;
+  left:200px;
+  z-index:3;
+}
+
+#Auvergne{
+  top:240px;
+  left:270px;
+}
+
+#paca{
+  top:330px;
+  left:330px;
+}
+
+#aquitaine{
+  top:240px;
+  left:130px;
+}
+
+#bretagne{
+  top:130px;
+  left:50px;
+}
+
+/*------------------------------
+fin section simplon-quoi
+-------------------------------*/
