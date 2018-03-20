@@ -67,11 +67,73 @@ logo + trois onglets = Qui sommes nous ? Pourquoi Simplon ? Contact-->
   phrase d'accroche et slides-->
   </section>
 
+  <!-- debut section simplon-quoi -->
   <section class="simplon-quoi">
-    <!--MICHAEL + SIBYLLE(la carte)
-    texte avec chiffres en dernière ligne.
-    deux boutons avec "formation" et "les fabriques" -->
+    
+    <!-- partie onClick -->
+    <div class="onClickLeft">
+      <img class="cross crossLeft" src="Assets/cross.png">
+      <div class="clear"></div>
+      <div class="display display1">
+        <div class="test">
+          <div>
+            <p><strong>Data Artisan : </strong><i>7 à 20 mois</i><br>Apprendre à gérer l’ensemble du cycle de la donnée, de la donnée brute jusqu’à la livraison de données utilisables.</p>
+
+            <p><strong>Développeur.se web : </strong><i>7 à 20 mois</i><br>Produire un site internet et développer des fonctionnalités qui répondent aux besoins du client.</p>
+
+            <p><strong>référent(e) digital : </strong><i>7 à 20 mois</i><br>Identifier et accompagner la création de solutions numériques au sein d’une structure : création de sites web, mise en ligne de solution e-commerce, publicité en ligne, services cloud, etc.</p>
+
+            <p><strong>dévelopPeur.se data I.A : </strong><i>7 à 20 mois</i><br>Récolter et analyser des données pour anticiper les besoins de l’entreprise et effectuer des analyses prédictives grâce à l’Intelligence Artificielle (IA).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="onClickRight">
+      <img class="cross crossRight" src="Assets/cross.png">
+      <div class="clear"></div>
+      <div class="display display1">
+        <div class="carte">
+              <div class="fabrique" id="Paris"></div>
+              <div class="fabrique" id="Est"></div>
+              <div class="fabrique" id="Nord-Est"></div>
+              <div class="fabrique" id="Occitanie"></div>
+              <div class="fabrique" id="Auvergne"></div>
+              <div class="fabrique" id="paca"></div>
+              <div class="fabrique" id="aquitaine"></div>
+              <div class="fabrique" id="bretagne"></div>
+          </div>
+        </div>
+    </div>
+    <!-- partie onClick -->
+
+    <h2>Qui nous sommes</h2>
+    <div class="quiNousSommesParagraphe">
+      <p>Nous sommes un réseau de fabriques numériques et inclusives en France et à l’étranger. Nous avons formé plus de 2000 apprenants aux métiers du numérique depuis 2013.</p>
+      <p>Nous sommes une entreprise sociale et solidaire. Nous voulons faire du numérique un véritable levier d’inclusion et révéler des talents parmi des publics peu représentés dans le secteur.</p>
+      <p>Nous conseillons les entreprises dans leur transformation digitale et parfois nous réalisons leurs sites et leurs applications.  </p>
+    </div>
+
+    <div class="display">
+      <div class="miniBlock btnLeft"><button>Les Formations</button></div>
+      <div class="miniBlock btnRight"><button>La Carte</button></div>
+    </div>
+
+    <i class="i">Simplon en quelques chiffres :</i>
+    <div class="blockQuelquesChiffres display">
+      <div class="miniBlock miniBlock1">
+        <p><span>40</span><br>fabriques dans le monde</p>
+      </div>
+      <div class="miniBlock miniBlock2">
+        <p><span>2056</span><br>simplonien.ne.s dans le monde</p>
+      </div>
+      <div class="miniBlock miniBlock3">
+        <p><span>77%</span><br>de sorties positives</p>
+      </div>
+    </div>
+
   </section>
+  <!-- fin section simplon-quoi -->
 
   <section class="pourquoi">
 <!--GEOFFREY
@@ -163,7 +225,11 @@ avec un bouton envoyer-->
 
 
   </footer>
-  <script src='javascript.js'>
-  </script>
+  
+  
+    <!-- appel de jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- appel de jquery -->
+    <script src='javascript.js'></script>
   </body>
 </html>
