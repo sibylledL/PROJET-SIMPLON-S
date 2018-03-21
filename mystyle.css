@@ -49,11 +49,7 @@ margin-bottom: 7px;
 .magic{
 padding-top: 19px;
 }
-.houaaaaaclefootercoufffff{
-background-color:#95a5a6;
-display: flex;
-justify-content: center;
-}
+
 
 /*fin header*/
 
@@ -417,3 +413,46 @@ background-color: rgba(255,255,255, 0.9);
 /*------------------------------
 fin section simplon-quoi
 -------------------------------*/
+
+/* FOOOTER*/
+.pieddepage{
+
+  display: flex;
+padding-top: 10px;
+padding-bottom: 10px;
+justify-content: center;
+}
+.pieddepage h2 {
+  padding-top: 10px;
+  padding-left: 50px;
+  color: #dcdde1;
+}
+.pieddepage2{
+  padding-top: 30px;
+  text-align: center;
+}
+.pieddepage3{
+  padding-top: 40px;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  padding-left: 30px;
+}
+.pieddepage3 h3{
+  padding-right: 30px;
+  color: #b71540;
+}
+.pieddepage3 a{
+    color: #b71540;
+}
+.pieddepage4{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+.pieddepage4 img{
+  padding-right: 40px;
+
+}
