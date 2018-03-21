@@ -8,14 +8,14 @@
 .entete{
   display: flex;
   justify-content: space-around;
-  background-color: #ecf0f1;
+  background-color: white;
   width: 100%;
   position: fixed;
   /*border-bottom: 2px solid black;*/
 z-index:1000;
 }
 .simplonnn{
-  color: #e74c3c;
+  color: #e60000;
   margin-top: 15px;
   margin-left: 0px;
 }
@@ -92,34 +92,39 @@ z-index:0;
 
 .texte {
   width: 70%;
-  height: 140px;
+  height: 190px;
+  width:700px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid black;
-  border-radius: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
+  background-color: #86aade;
+  border-radius: 10px;
+  padding:20px;
+  text-align: center;
+  font-size: 18px;
 }
+
 
 h2 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
+.tem{
+  margin-bottom:25px;
+}
 .temoignages {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 10px;
   margin: 0px 150px;
+  height: 300px;
 }
 
 .T1, .T2, .T3, .T4, .T5 {
   display: flex;
   flex-direction: column;
   width: 15%;
-  height: 200px;
   margin: 0px;
   padding: 0px;
   border-radius: 30px;
@@ -127,11 +132,11 @@ h2 {
   transition: 1s ease-in-out;
 }
 
-.T1:hover, .T2:hover, .T3:hover, .T4:hover, .T5:hover {
+/*.T1:hover, .T2:hover, .T3:hover, .T4:hover, .T5:hover {
   color: black;
   border: 1px solid black;
   padding: 0px;
-}
+}*/
 
 .T1, .T3, .T5 {
   justify-content: flex-end;
@@ -161,7 +166,6 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 250px;
   margin: 10px;
 }
 
@@ -173,41 +177,76 @@ début section simplon-quoi
 }
 
 .simplon-quoi {
-  margin-top: 50px; 
-  text-align: center; 
+/*  margin-top: 50px; */
+  text-align: center;
 }
 
-.simplon-quoi .quiNousSommesParagraphe {
-  
+.quiNousSommesParagraphe {
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+margin-left: 280px;
+margin-right:280px;
+padding:20px;
+margin-bottom: 30px;
+background-color:#ff471a;
+border-radius: 10px;
+color:white;
 }
 
 .simplon-quoi p {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.simplon-quoi h2{
+  color: #e60000;
+  margin-bottom:15px;
 }
 
 .simplon-quoi button {
-  background-color: #C30044;
-  padding: 15px;
+  background-color: #ff471a;
+  padding:15px;
   border-radius: 15px;
+  border:2px solid #ff471a;
   color: #fff;
-  margin-bottom: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
 }
 
 .simplon-quoi button:hover {
-  border:   2px solid #C30044;
+  border:2px solid #e60000;
   background-color: #fff;
   color: #C30044;
+  font-weight: bold;
 }
 
 .simplon-quoi .display {
   display: flex;
 }
 
-.simplon-quoi .display .miniBlock {
-  flex: 1;
-  color: #fff
+.placeBoutton{
+  margin-left:300px;
+  margin-right:300px;
+  margin-bottom: 15px;
 }
 
+.chiffresOk{
+  weight:100%;
+  margin-top: 35px;
+}
+
+.simplon-quoi .display .miniBlock {
+  flex: 1;
+  color: #fff;
+  font-size: bold;
+
+}
+
+.blockQuelquesChiffres{
+  margin-top:-5px;
+
+}
 .simplon-quoi .blockQuelquesChiffres p {
   margin: auto;
 }
@@ -220,21 +259,22 @@ début section simplon-quoi
   font-size: 2em;
 }
 
+
 .simplon-quoi .blockQuelquesChiffres .miniBlock1 {
-  background-color: #0A246A;
-  height: 200px;
+  background-color: #e60000;
+  height: 130px;
   display: flex;
 }
 
 .simplon-quoi .blockQuelquesChiffres .miniBlock2 {
-  background-color: #C30044;
-  height: 200px;
+  background-color: #ff471a;
+  height: 130px;
   display: flex;
 }
 
 .simplon-quoi .blockQuelquesChiffres .miniBlock3 {
-  background-color: #0A246A;
-  height: 200px;
+  background-color: #e60000;
+  height: 130px;
   display: flex;
 }
 
@@ -246,7 +286,7 @@ début section simplon-quoi
 }
 
 .simplon-quoi .onClickLeft {
-  background-color: #0000FE;
+  background-color: rgba(255,255,255, 0.8);
   position: absolute;
   margin-left: -50vw;
   width: 50vw;
@@ -258,8 +298,8 @@ début section simplon-quoi
   float: right;
   margin-top: 15px;
   margin-right: 15px;
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
 }
 
 .simplon-quoi .onClickLeft_open {
@@ -270,7 +310,7 @@ début section simplon-quoi
 
 
 .simplon-quoi .onClickRight {
-  background-color: #0000FE;
+background-color: rgba(255,255,255, 0.9);
   position: absolute;
   margin-left: 100vw;
   width: 50vw;
@@ -282,8 +322,8 @@ début section simplon-quoi
   float: left;
   margin-top: 15px;
   margin-left: 15px;
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
 }
 
 .simplon-quoi .onClickRight_open {
@@ -292,25 +332,43 @@ début section simplon-quoi
 }
 
 .test {
-  margin: auto;
-  color: #fff;
+  margin-top:0px;
+  color:black;
+  font-family: "Lato";
+}
+
+.test p{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.color{
+  background-color: rgb(134,170,222);
+  padding: 10px;
+}
+
+.minus{
+  font-size: 14px;
+  padding-top: 10px;
 }
 
 .display1 {
   height: 100%;
   padding: 15px;
+
 }
 
 /* carte */
 
 .carte{
-  background-image: url('Assets/carte1.jpg');
+  background-image: url('Assets/carte1.png');
   background-size: contain;
   background-repeat: no-repeat;
   margin: auto;
   height: 400px;
   width: 400px;
   position: relative;
+  margin-top:-30px;
 }
 
 .fabrique{
