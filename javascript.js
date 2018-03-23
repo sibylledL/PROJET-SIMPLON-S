@@ -54,37 +54,48 @@ $(document).ready(function() {
   // début hover des image de témoins
   $(".photoTemoin1").mouseover(function(){
     $(".text-image1").css("visibility", "visible");
+    $(".T1").css("background-color", "#e60000");
+
   });
   $(".photoTemoin1").mouseout(function(){
     $(".text-image1").css("visibility", "hidden");
+    $(".T1").css("background-color", "#fff");
   });
 
   $(".photoTemoin2").mouseover(function(){
     $(".text-image2").css("visibility", "visible");
+    $(".T2").css("background-color", "#e60000");
   });
   $(".photoTemoin2").mouseout(function(){
     $(".text-image2").css("visibility", "hidden");
+    $(".T2").css("background-color", "#fff");
   });
 
   $(".photoTemoin3").mouseover(function(){
     $(".text-image3").css("visibility", "visible");
+    $(".T3").css("background-color", "#e60000");
   });
   $(".photoTemoin3").mouseout(function(){
     $(".text-image3").css("visibility", "hidden");
+    $(".T3").css("background-color", "#fff");
   });
 
   $(".photoTemoin4").mouseover(function(){
     $(".text-image4").css("visibility", "visible");
+    $(".T4").css("background-color", "#e60000");
   });
   $(".photoTemoin4").mouseout(function(){
     $(".text-image4").css("visibility", "hidden");
+    $(".T4").css("background-color", "#fff");
   });
 
   $(".photoTemoin5").mouseover(function(){
     $(".text-image5").css("visibility", "visible");
+    $(".T5").css("background-color", "#e60000");
   });
   $(".photoTemoin5").mouseout(function(){
     $(".text-image5").css("visibility", "hidden");
+    $(".T5").css("background-color", "#fff");
   });
   // fin hover des image de témoins
 
