@@ -4,6 +4,7 @@
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   scroll-behavior: smooth;
+
 }
 
 h2 {
@@ -11,7 +12,7 @@ h2 {
 }
 
 .entete{
-  
+
   background-color: white;
   width: 100%;
   position: fixed;
@@ -421,7 +422,9 @@ fin section contact
 -------------------------------*/
 .containerForm {
   display: flex;
-  width: 100vw;
+  width: 95vw;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .form {
